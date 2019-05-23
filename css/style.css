@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.features h2 {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.features-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.features p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
+
+}
+
+.features-blue {
+
+  background-color: #81b3d2;
+}
+
+.features-blue p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+
+}
+
+.features-blue h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.search-widget b {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.search-widget p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.search-widget button {
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+}
+
+.search-widget button:hover {
+  background-color: #604e43;
+}
+
+.search-widget button:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.search p {
+  text-align: left;
+
+}
+
+.search input {
+  font: inherit;
+  text-transform: uppercase;
+
+  border: none;
+  width: 346px;
+  height: 38px;
+  background-color: #f2f2f2;
+}
+
+.search input:focus {
+  background-color: #ffffff;
+}
+.search input:hover {
+  background-color: #ebebeb;
+}
+
+.value-box input {
+  width: 38px;
+  height: 38px;
+  font: inherit;
+  text-align: center;
+}
+
+.value-box button {
+  width: 38px;
+  height: 38px;
+  background-color:#f2f2f2;
+  border: none;
+}
+
+.search-submit button {
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+  border: none;
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.search-submit button:hover {
+  background-color: #669ec0;
+}
+
+.search-submit button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.main-footer {
+  background-color: ffffff;
+  opacity: 0.9;
+}
+
+.main-footer p {
+  font-size: 21px;
+  line-height: 66px;
+  text-align: center;
+}
+
+.footer-social a {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.hotels-list {
+  list-style: none;
+}
+
+.hotels-desc a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+
+.hotels-desc a:hover {
+  color: #81b3d2;
+}
+
+.hotels-desc a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotels-desc p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.button-more {
+
+  line-height: 27px;
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.button-more:hover {
+  background-color: #669ec0;
+}
+
+.button-more:active {
+  background-color: #5496bd;
+}
+
+.button-more:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.button-book {
+  width: 110px;
+  height: 27px;
+  background-color: #766357;
+  color: #ffffff;
+}
+
+.button-book:hover {
+  background-color: #604e43;
+}
+
+.button-book:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+.hotels-raiting {
+  width: 110px;
+  height: 27px;
+  background-color: #f2f2f2;
+}
+
+.hotels-raiting p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  font-weight: normal;
+}
