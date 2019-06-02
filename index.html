@@ -9,6 +9,7 @@
 </head>
 <body>
   <header class="main-header">
+    <div class="container">
     <nav class="main-navigation">
       <a class="main-header-logo">
         <img src="img/index-logo.svg" width="135" height="70" alt="Логотип сайта города Седона">
@@ -20,29 +21,34 @@
         <li><a href="hotels.html">Гостиницы</a></li>
       </ul>
     </nav>
+    </div>
   </header>
   <main class="container">
 
     <h1 class="visually-hidden">Город Седона, Штат Аризона</h1>
 
-    <div class="welcome">
-      <span class="intro-bg"></span>
-      <span class="intro-pattern"></span>
+    <div class="welcome-picture">
+      <img src="img/welcome.png" alt="Добро пожаловать в Седону" height="353px" width="459px">
     </div>
 
     <section class="features">
-      <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+      <div class="features-title">
+      <h2>Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-      <div class="features-block">
+      </div>
+
+      <div class="features-block1">
         <div class="features-blue">
           <h3>Настоящий городок</h3>
           <p>— №1 —</p>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь<p>
-            <div class="feature-picture">
-              <img src="img/feature-picture.jpg" width="800" height="256" alt="Улица Седоны">
-            </div>
-          </div>
-          <div class="features-block">
+        </div>
+        <div class="feature-picture">
+          <img src="img/feature-picture.jpg" width="800" height="256" alt="Улица Седоны">
+        </div>
+      </div>
+
+          <div class="features-block2">
             <div class="features-item">
               <span class="home-icon"></span>
               <h3>Жильё</h3>
@@ -57,28 +63,32 @@
               <p>Не только китайского, но и местного производства!</p>
             </div>
           </div>
-          <div class="features-blue">
+
+          <div class="features-block1">
             <div class="feature-picture">
               <img src="img/feature-picture-2.jpg" width="800" height="256" alt="Мост дьявола">
             </div>
-            <div class="features-item">
+
+            <div class="features-blue">
               <h3>Там есть Мост дьявола</h3>
               <p>— №2 —</p>
               <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             </div>
           </div>
-          <div class="features-block">
-            <div class="features-item">
+
+
+          <div class="features-block2">
+            <div class="features-item2">
               <h3>Небольшая площадь</h3>
               <p>— №3 —</p>
               <p>Все достопримечательности находятся очень близко</p>
             </div>
-            <div class="features-item">
+            <div class="features-item2">
               <h3>Красивая дорога</h3>
               <p>— №4 —</p>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
-            <div class="features-item">
+            <div class="features-item2">
               <h3>Мало туристов</h3>
               <p>— №5 —</p>
               <p>Большинство едет в гранд каньон и толпится там</p>
@@ -87,14 +97,23 @@
         </section>
 
         <section class="search-form">
-          <div class="search-widget">
-            <b>Заинтересовались?</b>
-            <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <button type="button" name="saerch-button">
+
+
+            <div class="search-title">
+                <p><b>Заинтересовались?</b></p>
+                <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+            </div>
+            <div class="wraper">
+
+
+            <div class="search-widget">
+            <button type="button" name="search-button">
               <h2>Поиск гостиницы в Седоне</h2>
             </button>
           </div>
+
           <div class="search">
+
             <form class="hotels-search" action="index.html" method="post">
               <p search-item>
                 <label>
@@ -123,35 +142,42 @@
                   <label for="children-number">
                     Дети:
                   </label>
-
                 <button class="button" type="button" name="minus-button" aria-laible=:"Кнопка уменьшения количества">-</button>
                 <input type="text" name="children-number-field" value="0" id="children-number">
                 <button type="button" name="minus-button" aria-laible=:"Кнопка увеличения количества">+</button><br>
-                </p>
+              </p>
               </div>
               <div class="search-submit">
                 <button type="submit" name="search-hotels-submit">Найти</button>
               </div>
             </form>
           </div>
+
+          </div>
           <section>
+
             <div class="map">
               <img src="img/map.png" alt="Карта Седоны" width="1200" height="594">
             </div>
+
           </main>
           <footer class="main-footer">
-            <p>#visitsedona</p>
-            <div class="footer-social">
+            <div class="container">
+
+
+              <p class="hashtag">#visitsedona</p>
+              <div class="footer-social">
               <a class="social-button" href="#" aria-laible:="Твиттер">Твиттер</a>
               <a class="social-button" href="#" aria-laible:="Фейсбук">Фейсбук</a>
               <a class="social-button" href="#" aria-laible:="Ютуб">Ютуб</a>
-            </div>
-            <p class="footer-copyright">
+              </div>
+            <div class="footer-copyright">
               <p>VEBSITE BY</p>
               <a class="html-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-                <img src="img/logo-htmlacademy.svg" width="230" height="60" alt="Логотип HTML Academy">
+                <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy">
               </a>
-            </p>
+            </div>
+            </div>
           </footer>
         </body>
         </html>
